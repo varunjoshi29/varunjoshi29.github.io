@@ -19,7 +19,7 @@
   font-style: italic;
   font-family: Georgia;
   text-align: center;
-  color : #909090	;
+  color: #909090;
 }
 
 .copyright-text {
@@ -31,7 +31,7 @@
   color: #404040;
 }
 
-.grid-container {
+.grid-container-nature {
   margin-top: 66px;
   display: grid;
   grid-template-columns: 280px 280px;
@@ -41,7 +41,23 @@
   justify-content: center;
 }
 
-.grid-container img {
+.grid-container-home {
+  margin-top: 76.5px;
+  display: grid;
+  grid-template-columns: 280px 280px;
+  grid-template-rows: 280px 280px;
+  grid-gap: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid-container-nature img {
+  object-fit: cover;
+  height: 280px;
+  width: 280px;
+}
+
+.grid-container-home img {
   object-fit: cover;
   height: 280px;
   width: 280px;
